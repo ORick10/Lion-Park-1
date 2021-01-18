@@ -7,6 +7,7 @@
     </head>
     <body>
         <section>
+            <div class="circule"></div>
             <header>
                 <a herf="#"><img src="img/logo.png" class="logo"></a>
                 <ul>
@@ -30,9 +31,9 @@
                     </p>
                 </div>
                 <ul class="thumb">
-                    <li><img src="img/thumb1.png"></li>
-                    <li><img src="img/thumb2.png"></li>
-                    <li><img src="img/thumb3.png"></li>
+                    <li><img src="img/thumb1.png" onclick="imgSlider('img/img1.png');changeCirculeColor('#017143')"></li>
+                    <li><img src="img/thumb2.png" onclick="imgSlider('img/img2.png');changeCirculeColor('#eb7495')"></li>
+                    <li><img src="img/thumb3.png" onclick="imgSlider('img/img3.png');changeCirculeColor('#d752b1')"></li>
                 </ul>
                 <ul class="sci">
                     <li><a href="#"><img src="img/facebook.png"></a></li>
@@ -40,5 +41,14 @@
                     <li><a href="#"><img src="img/instagram.png"></a></li>
                 </ul>
         </section>
+        <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.starbucks') .src = anything;
+        }
+        function changeCirculeColor(color){
+            const circule = document.querySelector('.circule');
+            circule.style.background = color;
+        }
+        </script>
     </body>
 </html>
