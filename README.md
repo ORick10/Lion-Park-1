@@ -1,6 +1,6 @@
 # Starbuks
 <p>Pagina criada em Html, css com animação 
-projeto simples e bem facil para treinar css e desenvolver projetos simples para pequenas aplicações.</p>
+projeto simples e bem facil para treinar css e desenvolver um projeto simples para pequenas aplicações.</p>
 
 <img src="https://www.imagemhost.com.br/images/2021/01/23/starbucks-page.png" width="850">
 
